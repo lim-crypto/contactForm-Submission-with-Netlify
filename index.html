@@ -17,15 +17,11 @@
         <h1>   Contact Form Submission with Netlify </h1>
 
             <form action="POST" data-netlify="true">
-               <div class="fields">
                 <input type="text" name="name" id="name" placeholder="Name" required />
                 <input type="email" name="email" id="email"  placeholder="Email Address" required   pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" />
                 <textarea name="message" id="message" placeholder="Message" rows="7" cols="50" required></textarea>
-               <div class="field">
-                <div data-netlify-recapcha="true"></div>
-               </div>
+                <div data-netlify-recaptcha="true"></div>
                 <input type="submit" value="Send Message" class="button btn1" />
-               </div>
             </form>
         </section>
     </div>
