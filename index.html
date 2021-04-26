@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/d3f7c8fad1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="title">
+        <h1>   Contact Form Submission with Netlify </h1>
+
+            <form action="POST" data-netlify="true">
+                <input type="text" name="name" id="name" placeholder="Name" required />
+                <input type="email" name="email" id="email"  placeholder="Email Address" required   pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" />
+                <textarea name="message" id="message" placeholder="Message" rows="7" cols="50" required></textarea>
+                <div data-netlify-recapcha="true"></div>
+                <input type="submit" value="Send Message" class="button btn1" />
+            </form>
+        </section>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <section class="title">
+                <h1 class="whiteh1">Contact Me</h1>
+                <div class="content">
+                    <div>
+                       <label title="click to copy" style="cursor: pointer;" for="cpnum">
+                           <i  class="h2 fas fa-mobile"></i> 
+                        </label>
+                        <input title="click to copy" type="text" size="10" id="cpnum" value="+639214720591" readonly >  
+         
+                    </div>
+                    <div>
+                        <h2 class="h2">
+                            <a href="mailto:wamidulim@gmail.com">
+                                <i class="fas fa-envelope"></i> wamidulim@gmail.com
+                            </a>
+                        </h2>
+                    </div>
+                    <div>
+                        <h2 class="h2">
+                            <a href="https://www.facebook.com/messages/t/100001778466548">
+                                <i class="fab fa-facebook-messenger"></i> fb.com/jerald.s.lim/
+                            </a>
+                        </h2>
+
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <section class="title">
+            <h1>Follow me</h1>
+            <div class="content">
+                <div class="box">
+                    <a href="https://www.facebook.com/jerald.s.lim/" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="box">
+                    <a href="https://github.com/lim-crypto" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                <!-- <div class="box">
+                    <i class="fab fa-twitter"></i>
+                </div> -->
+                <div class="box">
+                    <a href="https://www.linkedin.com/in/jerald-lim-b086081a7/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
