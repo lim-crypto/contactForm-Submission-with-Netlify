@@ -121,6 +121,9 @@ form input, form textarea{
      font-size: 25px;
      font-weight: 700;
  }
+ .fa-copy{
+     font-size: 10px;
+ }
 .h2 {
     color: white;
     text-align: center;
